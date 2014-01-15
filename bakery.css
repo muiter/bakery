@@ -1,0 +1,159 @@
+html, body{
+	font-family: 'Raleway', sans-serif;
+	background-image: url('./pictures/paper.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+nav > p {
+	font-size: 1.3em;
+	margin: .8em;
+	display: inline-block;
+	color: #343859;
+}
+
+nav >p:hover {
+	cursor: pointer;
+}
+
+#name {
+	font-family: 'Lobster Two', cursive;
+	margin-top: 1em;
+	text-align: center;
+	word-spacing:1em;
+	color:#343859;
+}
+
+#navBar {
+	text-align: center;
+	border-top: 3px #60A685 solid;
+	border-bottom: 3px #60A685 solid;
+}
+
+#statement {
+	display: block;
+	font-size: 1.6em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	word-spacing:.2em;
+}
+
+#companyNameOne, #companyNameTwo, #companyNameThree {
+	font-size: 4em;
+}
+
+.pictures {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height:450px;
+	width:600px;
+}
+
+.carousel-caption > p {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.carousel {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	float: left;
+}
+
+.carousel-control {
+	color:white;
+	opacity: 1;
+	border-radius: 0;
+	background-color:#60A685;
+	border:none;
+}
+
+.carousel-control.left:hover, .carousel-control.right:hover {
+	opacity: 1;
+}
+
+.hover {
+	color:#60A685;
+}
+
+.notHover {
+	color:#343859;
+}
+
+#map-canvas {
+	height:100%;
+}
+
+.hide {
+	display:none;
+}
+
+.show{
+	display: block;
+}
+
+.item {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.carousel-inner {
+	width:64%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.carousel {
+	margin-left: 1.5em;
+}
+
+#container {
+	border-radius: .4%;
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background-color: white;
+	overflow: hidden;
+	box-shadow: 1px 2px 10px rgba(0, 0, 0, 1);
+}
+
+#pages {
+	height:500px;
+	padding-top: 2em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+}
+
+#bakeryHello {
+	float:right;
+	width: 35%;
+	text-align: center;
+	margin-right: 4em;
+	margin-top: 4em;
+}
+
+#bakery, #story, #products, #contact > p {
+	color:#343859;
+}
+
+#contact, #story {
+	text-align: center;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#products {
+	width: 15%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+
