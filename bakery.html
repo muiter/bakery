@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-<!-- put hide class on other divs and make it in jquery so that when user clicks on tab to add hide class and remove hide class from clicked -->
-<!-- fix pictures -->
 		<meta name="author" content="Matthew Muiter">
 		<meta charset="UTF-8">
 		<title>Wyoming Pastry Shop</title>
 		<link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB87N3Ky8hBffDSW0kvUzIZhpym5Lw5Tlk&sensor=false"></script>
 		<link type="text/css" href="../reset/basic_reset.css" rel="stylesheet">
 		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link type="text/css" href="./bakery.css" rel="stylesheet">
+		<script type="text/javascript">
+function initialize() {
+var mapOptions = {
+center: new google.maps.LatLng(-34.397, 150.644),
+zoom: 8
+};
+var map = new google.maps.Map(document.getElementById("map-canvas"),
+mapOptions);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 	</head>
 	<body>
 		<div id="container">
@@ -101,12 +111,17 @@
 					<p>505 Wyoming Ave.</p>
 					<p>Wyoming Ohio 45215</p>
 					<p>513.821.0742</p>
+					<div id="map-canvas">
+						<!-- <img border="0" src="http://maps.googleapis.com/maps/api/staticmap?center=Cincinnati,OH&zoom=13&size=600x300&sensor=false" alt="map of wyoming pastry shop in wyoming,ohio" -->
+
+						
+					</div>
 				</div>
 			</div>
 		</div>
 		<script src="../jquery/jquery-1.10.2.js "></script>
 		<script src="../jquery/jquery-ui-1.10.3.custom.js"></script>
-		<script src="../bootstrap/js/bootstrap.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<script src="./bakery.js" type="text/javascript"></script>
 	</body>
 </html>

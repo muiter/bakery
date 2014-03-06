@@ -38,6 +38,11 @@ nav >p:hover {
 	word-spacing:.2em;
 }
 
+#map-canvas {
+	height: 100%;
+	width:80%;
+}
+	
 #companyNameOne, #companyNameTwo, #companyNameThree {
 	font-size: 4em;
 }
@@ -46,8 +51,8 @@ nav >p:hover {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height:450px;
-	width:600px;
+	/*height:450px;*/
+	/*width:600px;*/
 }
 
 .carousel-caption > p {

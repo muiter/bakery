@@ -1,5 +1,3 @@
-//if this has class show then do nothing, under function pages
-
 function navColours() {
 	$("nav p").each(function() {
 		if($(this).hasClass("hover")) {
